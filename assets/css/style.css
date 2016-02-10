@@ -1,0 +1,67 @@
+body {
+    background-color: gray;
+    font-family: Helvectica,Arial, san-serif;
+}
+#cotainer{
+    background-color:gray;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align:center;
+
+}
+#header {
+    background-color: red;
+    color: #66CCFF;
+    text-align: center
+}
+#content{
+    padding: 10px;
+    color: #66CCFF;
+}
+#nav{
+    width: 180px;
+    float: left;
+    color: limegreen;
+    background-color: gray;
+}
+#main{
+    width: 600px;
+    float: right;
+    color: #DC143C;
+    background-color: darkslategray;
+
+}
+#footer{
+    clear: both;
+    background-color: darkgrey;
+    color: blue;
+    text-align:center;
+    border-top:4px solid black;
+    font-size: x-large;
+}
+#link{
+    width: 180px;
+    float: top;
+    color: limegreen;
+    background-color: gray;
+
+}
+#hero{
+    width: 180px;
+    float: top;
+    color: limegreen;
+    background-color: gray;
+}
+#game1{
+    width: 180px;
+    float: top;
+    color: limegreen;
+    background-color: gray;
+}
+#game2{
+    width: 180px;
+    float: top;
+    color: red;
+    background-color: gray;
+}
