@@ -10,6 +10,7 @@
 <div id="game2"
 <?php
 
+// This is a comment
 $hero_name = 'Chad';
 $hero_attack = 5;
 $hero_defense = 10;
