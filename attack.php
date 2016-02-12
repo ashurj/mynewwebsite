@@ -7,10 +7,9 @@
         }
     </style>
 </head>
-<div id="game2"
+<div id="game2">
 <?php
 
-// This is a comment
 $hero_name = 'Chad';
 $hero_attack = 5;
 $hero_defense = 10;
@@ -27,7 +26,7 @@ do {
 
     echo "Monster Health is now " . $monster_health . '<br/>';
     echo "Hero Health is now " . $hero_health .'<br/>';
-}while ($hero_health >= 0 && $monster_health >= 0);
+}while ($hero_health > 0 && $monster_health > 0);
 
 if($monster_health <= 0){
     echo "Monster Loses";
@@ -37,10 +36,11 @@ elseif($hero_health <= 0 ){
 }
 ?>
 </div>
-<div id="link"
+<div id="link">
 <ul>
     <li><a href="hero.php">Game Information</a></li>
     <li><a href="index.php">Main</a></li>
 
 </ul>
+    </div>
 </html>

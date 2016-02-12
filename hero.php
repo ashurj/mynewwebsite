@@ -20,15 +20,15 @@ $monster_defense = 20;
 $monster_health = 150;
 ?>
 
-<div id="game1"
+<div id="game1">
     <span>Hero Name:</span> <?php echo $hero_name; ?>
 </div>
 
-<div id="game1"
+<div id="game1">
     <span>Hero Attack:</span> <?php echo $hero_attack; ?>
 </div>
 
-<div id="game1"
+<div id="game1">
     <span>Hero Defense:</span> <?php echo $hero_defense; ?>
 </div>
 
@@ -36,7 +36,7 @@ $monster_health = 150;
     <span>Hero Health</span> <?php echo $hero_health; ?>
 </div>
 
-<div id="game1"
+<div id="game1">
     <span>Monster Name:</span> <?php echo $monster_name; ?>
 </div>
 
@@ -44,43 +44,21 @@ $monster_health = 150;
     <span>Monster Attack:</span> <?php echo $monster_attack; ?>
 </div>
 
-<div id="game1"
+<div id="game1">
     <span>Monster Defense:</span> <?php echo $monster_defense; ?>
 </div>
 
-<div id="game1"
+<div id="game1">
     <span>Monster Health</span> <?php echo $monster_health; ?>
 </div>
 
-<div id="game1"
-   Monster gets attacked!
-</div>
-<div id="game1"
-    Monsters new health <?php echo $monster_health -= $hero_attack;; ?>
-</div>
 
-<div id="game1"
-    <span>Monster Health</span> <?php echo $monster_health; ?>
-</div>
-
-<div id="game1"
-    <span>Monster Drinks a health potion</span>
-</div>
-
-<div id="game1"
-    <span>Monster Health</span> <?php $monster_health = $monster_health + 50; ?>
-</div>
-
-<div id="game1"
-    <span>Monster Health</span> <?php echo $monster_health; ?>
-</div>
-
-<div id="hero"
+<div id="hero">
 <ul>
     <li><a href="index.php">Main</a></li>
     <li><a href="attack.php">Simulation</a></li>
 
 </ul>
-
+</div>
 </body>
 </html>

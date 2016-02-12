@@ -30,8 +30,8 @@
 
             <div id="footer">
                 <?php
-                 $first_name = 'Ashur';
-                 $last_name = 'Peppers';
+                 $first_name = 'Hello';
+                 $last_name = 'Its Me';
                 ?>
                 Web Design By <?php echo $first_name . " " . $last_name; ?> <?php echo date('Y-m-d'); ?>
             </div>
